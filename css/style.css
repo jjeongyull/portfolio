@@ -1,0 +1,177 @@
+            @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+            .notosanskr * { 
+            font-family: 'Noto Sans KR', sans-serif;
+            }
+            @font-face {
+                font-family: 'SBAggroM';
+                src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;
+            }
+        .header{width: 1900px; margin: auto; margin-bottom: 15%;position: relative;}
+        .main{width: 100%; display: flex; justify-content: space-between;}
+        .headerText{ margin-left: 5%; margin-top: 22%; z-index: 999999999; position: absolute;}
+        .headerText h1{font-family: 'SBAggroM'; font-weight: 600; font-size: 4.8vw; color: black; margin-bottom: 10px;}
+        .headerText h2{font-family: 'SBAggroM'; font-weight: 400; font-size: 4vw;margin-bottom: 30px;}
+        .mainMenu{display: flex; justify-content:start;}
+        .mainMenu>li{font-family: 'SBAggroM'; font-weight: 400; font-size: 1.5vw; text-align: center; color: black; padding: 15px; cursor: pointer;}
+        .mainMenu>li:hover{transform: scale(1.2);}
+        .headerImg{width: 70%; margin-left: 30%;}
+        .headerImg img{width: 100%;}
+
+        .section{width: 1900px; margin: auto;}
+        .about{width: 100%; display: flex; justify-content: space-between; font-family: 'Cormorant Garamond', serif; margin-bottom: 15%;}
+        .aboutText{width: 50%;}
+        .aboutText h3{font-size: 2.5vw; color: black; margin-bottom: 8%;}
+        .aboutText p{font-size: 1vw; font-family: 'Noto Serif KR', serif;}
+        .aboutText>p{margin-bottom: 2%;}
+        .aboutText span{font-size: 1.2vw; color: black; font-family: 'Cormorant Garamond', serif; font-weight: bold; margin-right: 10px;}
+        .aboutImg{width: 50%; }
+        .aboutImg img{width: 95%;}
+        .license{display: flex; margin-bottom: 2%;}
+        .work{display: flex;}
+
+        .section02{width: 1900px; margin: auto; margin-bottom: 120px;}
+        .popol01{width: 100%; display: flex; justify-content: space-between; font-family: 'Cormorant Garamond', serif;}
+        .popol01Text{width: 50%; text-align: right;}
+        .popol01Text h3{ font-family: 'Cormorant Garamond', serif; font-size: 2.5vw; color: black; margin-right: 4%;  margin-bottom: 8%; margin-top: 3%;}
+        .popol01Text p{font-family: 'Noto Serif KR', serif; font-size: 1vw;  margin-right: 4%;}
+        .text01{font-weight: bold; color: black;}
+        .text02{ margin-bottom: 8%;}
+        .popol01Text span{ font-family: 'Cormorant Garamond', serif; font-size: 1.2vw; font-weight: bold; color: black;}
+        .popol01Text a{font-family: 'Noto Serif KR', serif;  margin-left: 83%; font-size: 0.8vw; border: 1px solid black; display: block; width: 12%; height: 10%; 
+                        text-align: center; line-height: 2.3vw;}
+        .popol01Text a:hover{background-color: rgb(170, 170, 170); transition: 1s; color: black;}
+        .popol01Img{width: 50%; position: relative; height: 450px;}
+        .popol01Img>div{position: absolute; width: 100%;}
+        .popol01Img img{width: 100%; transition: 1s;}
+
+        .section03{width: 1900px; margin: auto; margin-bottom: 9%;}
+        .popol02{width: 100%; display: flex; justify-content: space-between;}
+        .popol02Text{width: 50%;}
+        .popol02Text h3{ font-family: 'Cormorant Garamond', serif; font-size: 2.5vw; color: black; margin-left: 4%;  margin-bottom: 8%; margin-top: 3%;}
+        .popol02Text p{font-family: 'Noto Serif KR', serif; font-size: 1vw;  margin-left: 4%;}
+        .popol02Text a{font-family: 'Noto Serif KR', serif;  margin-left: 4%; font-size: 0.8vw; border: 1px solid black; display: block; width: 12%; height: 10%; 
+                        text-align: center; line-height: 2.3vw;}
+        .popol02Text span{ font-family: 'Cormorant Garamond', serif; font-size: 1.2vw; font-weight: bold; color: black;}
+        .popol02Text a:hover{background-color: rgb(170, 170, 170); transition: 1s; color: black;}
+        .popol02Img{width: 50%; position: relative; height: 450px;}
+        .popol02Img>div{width: 100%; position: absolute;}
+        .popol02Img img{width: 100%; transition: 1s;}
+
+        .section04{width: 1900px; margin: auto; margin-bottom: 15%;}
+        .section04>h1{text-align: center; font-family: 'Cormorant Garamond', serif; color: black; font-size: 5vw; margin-bottom: 3%; font-weight: 400;}
+        .skills{width: 100%; display: flex; justify-content: space-between; text-align: center;}
+        .skills li{font-family: 'Noto Serif KR', serif; font-size: 1vw;}
+        .skills ul{margin-top: 20%;}
+        .skill01{width: 50%; display: flex; height: 400px; background-color: gray; justify-content: space-around; color: white;
+                   }
+        .skill02{width: 50%; display: flex; height: 400px; background-color: gainsboro; justify-content: space-around; color: black;
+                    }
+        .skillBox01{width: 50%;}
+        .skillBox02{width: 50%;}
+        .skillBox03{width: 50%;}
+        .skillBox04{width: 50%;}
+        .skillBox01 li:first-child,
+        .skillBox02 li:first-child,
+        .skillBox03 li:first-child,
+        .skillBox04 li:first-child{font-family: 'Cormorant Garamond', serif; font-size: 3vw; margin-bottom: 3%;}
+
+        .section05{width: 1900px; margin: auto;  background-color: #333; }
+        .contact{width: 100%; display: flex;}
+        .contactBox1{width: 50%;}
+        .contactBox1 img{width: 100%;}
+        .contactBox2{width: 50%; padding-left: 7%; padding-top: 6%;}
+        .contactBox2 h2{font-family: 'Cormorant Garamond', serif; color: white; font-size: 5vw; margin-bottom: 3%; font-weight: 400;}
+        .contactBox2 li{font-family: 'Noto Serif KR', serif; font-size: 1.5vw; margin-bottom: 2%;}
+        .contactBox2 li:last-child{margin-bottom: 5%;}
+        .contactBox2 li>span{font-family: 'Cormorant Garamond', serif; color: white; font-size: 1.8vw;}
+        .contactBox2 a{font-family: 'Cormorant Garamond', serif; font-size: 1.5vw; border: 1px solid white; width: 30%; display: inline-block;
+                         text-align: center; padding: 5%; color: white;}
+        .contactBox2 a:hover{background-color: white; color: black; transition: 1s;}
+
+        @media screen and (max-width:1920px) {
+            .header{width: 100%;}
+            .section{width: 100%;}
+            .section02{width: 100%;}
+            .section03{width: 100%;}
+            .section04{width: 100%;}
+            .section05{width: 100%;}
+        }
+        @media screen and (max-width:1800px) {
+            .header{width: 100%;}
+            .headerText{margin-left: 0;}
+            
+        }
+        @media screen and (max-width:1700px) {
+            .header{width: 100%;}
+            .popol01Img{height: 300px;}
+            
+        }
+        @media screen and (max-width:1200px) {
+            .header{width: 100%;}
+            .popol01Img{height: 500px;}
+        }
+        @media screen and (max-width:1100px) {
+            .header{width: 100%; margin: auto;}
+            .main{flex-wrap: wrap; justify-content: center;}
+            .mainMenu{justify-content: space-around;}
+            .headerImg{margin-bottom: 150px; margin-left: 0; margin-top: 30%;}
+            .headerText{width: 100%; margin-top: 2%;}
+            .headerText h1{text-align: center;margin-bottom: 0;}
+            .headerText h2{text-align: center;margin-bottom: 10px;}
+            .about{flex-wrap: wrap; justify-content: center;}
+            .aboutImg{width: 100%;}
+            .aboutImg img{width: 100%;}
+            .aboutText{text-align: center; width: 100%;}
+            .license{justify-content: center;}
+            .work{justify-content: center;}
+            .popol01{flex-wrap: wrap;}
+            .popol01Text{width: 100%; text-align: center;}
+            .popol01Text h3{margin-right: 0;}
+            .popol01Text p{margin-right: 0;}
+            .popol01Text a{ margin: auto; margin-bottom: 50px;}
+            .popol01Img{width: 100%; margin-bottom: 8%; height: 300px;}
+            .popol01Img>div{width: 100%; }
+            .popol02{flex-wrap: wrap;}
+            .popol02Text{width: 100%; text-align: center;}
+            .popol02Text h3{margin-left: 0;}
+            .popol02Text p{margin-left: 0;}
+            .popol02Text a{ margin: auto; margin-bottom: 50px;}
+            .popol02Img{width: 100%; margin-bottom: 5%; height: 300px;}
+            .popol02Img>div{width: 100%; }
+            .skill01{height: 300px;}
+            .skill02{height: 300px;}
+        }
+
+        @media screen and (max-width:780px) {
+            .popol01Img{height: 200px;}
+            .skill01{height: 200px;}
+            .skill02{height: 200px;}
+            .aboutText p{font-size: 7px;}
+            .aboutText span{font-size: 8px;}
+            .popol01Text p{font-size: 7px;}
+            .popol01Text span{font-size: 8px;}
+            .popol02Text p{font-size: 7px;}
+            .popol02Text span{font-size: 8px;}
+            .skills li{font-size: 7px;}
+            .popol02Text a{font-size: 8px;}
+            .popol01Text a{font-size: 8px; }
+        }
+        @media screen and (max-width:560px) {
+            .popol01Img{height: 200px;}
+            .skill01{height: 160px;}
+            .skill02{height: 160px;}
+            .popol01Img{height: 200px;}
+            .popol02Img{height: 200px;}
+            .aboutText p{font-size: 7px;}
+            .aboutText span{font-size: 8px;}
+            .popol01Text p{font-size: 7px;}
+            .popol01Text span{font-size: 8px;}
+            .popol02Text p{font-size: 7px;}
+            .popol02Text span{font-size: 8px;}
+            .skills li{font-size: 7px;}
+            .popol02Text a{font-size: 8px; line-height: 5vw;}
+            .popol01Text a{font-size: 8px; line-height: 5vw;}
+        }
